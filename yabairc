@@ -104,6 +104,9 @@ yabai -m rule --add app="^访达$" manage=off grid=10:10:1:1:8:8
 yabai -m rule --add app="^微信$" title!="^微信$" manage=off
 yabai -m rule --add app="^微信$" title="^微信$" manage=off grid=10:10:1:1:8:8
 
+# Match non-major window of Inkscape, something like "文件名已存在，你要替换它吗?" floating window
+yabai -m rule --add app="^Inkscape$" title="^$" manage=off
+
 yabai -m rule --add app="^系统设置$" manage=off grid=10:10:1:1:8:8
 # yabai -m rule --add app="^Steam$" manage=off grid=10:10:1:1:8:8
 yabai -m rule --add app="^MacZip$" manage=off grid=10:10:1:1:8:8
