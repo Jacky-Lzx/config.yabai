@@ -107,6 +107,8 @@ yabai -m rule --add app="^访达$" title="快速查看$" manage=off
 yabai -m rule --add app='^Arc$' title='^Space.*$' manage=off
 yabai -m rule --add app="^访达$" manage=off grid=10:10:1:1:8:8
 
+yabai -m rule --add app="^kitty$" title="^nvim_" manage=off grid=10:10:2:1:6:4
+
 yabai -m rule --add app="^微信$" title!="^微信$" manage=off
 yabai -m rule --add app="^微信$" title="^微信$" manage=off grid=10:10:1:1:8:8
 
